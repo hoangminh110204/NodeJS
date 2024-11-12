@@ -13,10 +13,11 @@ app.use([cors(), exp.json()]);
 
 //connect database
 const db = mysql.createConnection({
-    host: 'localhost', 
-    user:  'root', password: '', 
+    host: 'bqwx4y9h8f21lnuixbla-mysql.services.clever-cloud.com', 
+    user:  'uqtem7uoduvijrhp', 
+    password: '2Hm5kBWqZim3PrTolO06', 
     port: 3306, 
-    database: 'datn3'
+    database: 'bqwx4y9h8f21lnuixbla'
 })
 db.connect(err=>{
     if(err) throw err;
